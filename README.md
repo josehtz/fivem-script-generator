@@ -31,11 +31,13 @@ A simple and interactive CLI tool to scaffold structured **FiveM** resource scri
 ### 1. Clone or download this repo
 
 ```bash
-git clone https://github.com/your-username/fivem-script-generator
+git clone https://github.com/josehtz/fivem-script-generator
 cd fivem-script-generator
 ```
 ### 2. Install dependencies
-
+```bash
+npm install
+```
 ---
 
 ## Usage
