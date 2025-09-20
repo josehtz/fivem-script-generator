@@ -1,0 +1,28 @@
+
+{
+  "name": "fivem-script-generator",
+  "version": "1.0.0",
+  "description": "CLI tool to quickly scaffold FiveM resource structures using JavaScript.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "fivem-gen": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "author": "josehtz (https://github.com/josehtz)",
+  "license": "MIT",
+  "keywords": [
+    "fivem",
+    "resource",
+    "cli",
+    "generator",
+    "lua",
+    "scaffold"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
